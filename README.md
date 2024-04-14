@@ -16,9 +16,9 @@
 15. Click "Zip File 1" to download a zip file of the data.
 16. Unzip the file.
 17. Convert the images to JPG (see https://medium.com/@vivek8981/dicom-to-jpg-and-extract-all-patients-information-using-python-5e6dd1f1a07d for instructions.)
-18. Create a folder to hold your JPG files in Google Drive.
+18. Create a folder called "data", which will hold your JPG files, in Google Drive.
 19. Within that folder, create a folder called "train".
 20. Create a folder called "AD" within the "train" folder and move the images there.
 21. Repeat steps 3-17, this time with "CN" data (i.e., check the "CN" box in the "Research Group" section and create a folder called "CN" within your "train" folder in Google Drive that holds these images.)
 22. Create an empty "val" folder with empty "AD" and "CN" folders.
-23. In the notebook, change the variable called "root" to the path of your folder that has your train and val folders.
+23. In the notebook, change the variable called "root" to the path of your folder that has your train and val folders (for instance, mine is '/content/drive/MyDrive/CS_598_Final_Project'.)
