@@ -32,6 +32,7 @@
 
 # Main Model Results
 Metric     | Result   |
+| -------- | -------- |
 Accuracy   | 0.517241 |
 F1	       | 0.681818 |
 Precision  | 0.517241 |
