@@ -1,7 +1,7 @@
 # Set Up
 1. Clone this project using "git clone https://github.com/nehaswamy/cs598-final-project.git" (HTTPS) or "git clone git@github.com:nehaswamy/cs598-final-project.git" (SSH)
 2. Go to [Google Colab](https://colab.research.google.com/)
-3. You should be prompted to open a notebook. Go to Upload and then browse for the DL4H_Team_101.ipynb file or drag it.
+3. You should be prompted to open a notebook. Go to "Upload" and then browse for the DL4H_Team_101.ipynb file or drag it.
 4. Go to Google Drive to locate your new Colab file.
 5. In the Colab file, change the global variable variable "root" to the path of the folder containing your Colab file. This folder will also hold any other files and folders needed to run this project. 
 
@@ -30,4 +30,10 @@
 22. Create an empty "val" folder with empty "AD" and "CN" folders.
 23. If you have not already, in the notebook, change the variable called "root" to the path of the folder containing your Colab file and "data" folder (for instance, mine is '/content/drive/MyDrive/CS_598_Final_Project'.)
 
-# Results
+# Main Model Results
+Metric     | Result   |
+Accuracy   | 0.517241 |
+F1	       | 0.681818 |
+Precision  | 0.517241 |
+Recall	   | 1.000000 |
+ROC AUC	   | 0.500000 |
